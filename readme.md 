@@ -1,0 +1,78 @@
+
+
+Traffic Network Optimization using Dijkstra's Algorithm
+
+
+Features
+
+Models a traffic network using a weighted graph.
+
+Implements Dijkstra’s algorithm to find the shortest travel time from any source node.
+
+Displays optimized travel times from each node to every other node in the network.
+
+Designed for analyzing and improving traffic flow between road intersections.
+
+
+
+Technology Used
+
+Language: Python 3
+
+Libraries: heapq (for priority queue functionality)
+
+
+
+How It Works
+
+1. The traffic network is modeled as a graph using an adjacency list.
+
+
+2. Dijkstra’s algorithm is applied to find the shortest path from a given node to all others.
+
+
+3. The algorithm runs for each node in the network to calculate travel times from every intersection.
+
+
+4. The output displays the optimized travel time between all node pairs.
+
+
+
+Data Collection
+
+Source: Hardcoded in the Python script.
+
+The graph represents a hypothetical traffic network.
+
+Each edge represents a road segment with a predefined travel time (weight).
+
+
+Objective
+
+To simulate and optimize urban traffic flow using Dijkstra’s algorithm, which helps identify the shortest and most efficient travel paths between intersections in a road network.
+
+
+Controls
+
+No GUI or user input required.
+
+Simply run the script with python filename.py.
+
+Output is printed in the terminal/console.
+
+
+ML Techniques Used 
+
+No machine learning used; the project is based on classical graph algorithms.
+
+Model Training
+
+Not applicable (no ML model or training phase).
+
+Output Explanation (Optional)
+
+The output displays:
+
+The optimized travel time from each node (intersection) to every other node.
+
+Helps visualize the shortest paths and identify potential bottlenecks or delays in the traffic network.
